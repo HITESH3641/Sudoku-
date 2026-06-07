@@ -30,7 +30,7 @@ let create = function (arr) {
     }
 }
 let call = async function () {
-    let res = await fetch('https://sudoku-api.vercel.app/api/dosuku2');
+    let res = await fetch('https://sudoku-api.vercel.app/api/dosuku');
     let sudoku;
     if (res.ok) {
         sudoku = await res.json();
