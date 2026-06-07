@@ -204,3 +204,6 @@ body {
 .hovered {
     background: #dbeafe !important;
 }
+.active-cell {
+    background: #93c5fd !important;
+}
